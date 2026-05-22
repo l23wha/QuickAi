@@ -1,5 +1,6 @@
 import React from 'react'
 import { PricingTable } from '@clerk/clerk-react' 
+import "../index.css"
 
 const Plan = () => {
   return (
