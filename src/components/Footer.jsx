@@ -33,19 +33,19 @@ const Footer = () => {
               Company
             </h2>
 
-            <a className="hover:text-slate-600 transition" href="#">
+            <a className="hover:text-slate-600 transition" href="/">
               Home
             </a>
 
-            <a className="hover:text-slate-600 transition" href="#">
+            <a className="hover:text-slate-600 transition" href="/About-us">
               About Us
             </a>
 
-            <a className="hover:text-slate-600 transition" href="#">
+            <a className="hover:text-slate-600 transition" href="/Contact-us">
               Contact Us
             </a>
 
-            <a className="hover:text-slate-600 transition" href="#">
+            <a className="hover:text-slate-600 transition" href="/Privacy-policy">
               Privacy Policy
             </a>
 
@@ -75,7 +75,7 @@ const Footer = () => {
                 placeholder="Enter your email"
               />
 
-              <button className="bg-indigo-600 px-4 py-2 text-white rounded">
+              <button onClick={()=>alert("Subcribed Successfully")} className="bg-indigo-600 px-4 py-2 text-white rounded cursor-pointer">
                 Subscribe
               </button>
 
